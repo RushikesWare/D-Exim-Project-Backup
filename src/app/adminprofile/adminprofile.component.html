@@ -1,0 +1,161 @@
+<mat-card class=" matcard ">
+    <div class=" container titles  ">
+        <form class="pagefont" [formGroup]="adminProfileForm" autocomplete="off" (ngSubmit)="onSubmit()">
+            <br>
+            <div class="row">
+                <div class="col-md 12 ">
+                    <h4 class="heading"><b>Admin Profile</b></h4>
+                </div>
+            </div>
+            <hr class="hrstyle">
+            <div class="row">
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class=""> Name</mat-label>
+                        <input matInput placeholder=" Name" formControlName="fullName" [formGroup]="adminProfileForm" [(ngModel)]="userProfileModel.fullName">
+                        <mat-error
+                            *ngIf="adminProfileForm.get('fullName').hasError('required') && adminProfileForm.get('fullName').touched">
+                            First Name is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('fullName').hasError('pattern') && adminProfileForm.get('fullName').touched">
+                            Only characters are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('fullName').hasError('minlength') && adminProfileForm.get('fullName').touched">
+                            Min 1 characters is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('fullName').hasError('maxlength') && adminProfileForm.get('fullName').touched">
+                            Max 20 Characters required</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Email</mat-label>
+                        <input matInput placeholder="Email" matInput formControlName="email" [(ngModel)]="userProfileModel.email" [formGroup]="adminProfileForm">
+                        <mat-error
+                            *ngIf="adminProfileForm.get('email').hasError('required') && adminProfileForm.get('email').touched">
+                            Email is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('email').hasError('pattern') && adminProfileForm.get('email').touched">
+                            Only characters are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('email').hasError('email') && adminProfileForm.get('email').touched">
+                            Enter Valid Mail</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('email').hasError('minlength') && adminProfileForm.get('email').touched">
+                            Min 1 characters is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('email').hasError('maxlength') && adminProfileForm.get('email').touched">
+                            Max 30 Characters required</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Mobile</mat-label>
+                        <input matInput placeholder="Mobile" matInput formControlName="mobileNo" [(ngModel)]="userProfileModel.mobileNo" [formGroup]="adminProfileForm">
+                        <mat-error
+                            *ngIf="adminProfileForm.get('mobileNo').hasError('required') && adminProfileForm.get('mobileNo').touched">
+                            Mobile No is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('mobileNo').hasError('pattern') && adminProfileForm.get('mobileNo').touched">
+                            Only Numbers are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('mobileNo').hasError('minlength') && adminProfileForm.get('mobileNo').touched">
+                            Min Length 10</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('mobileNo').hasError('maxlength') && adminProfileForm.get('mobileNo').touched">
+                            Max Length 10</mat-error>
+                    </mat-form-field>
+                </div>
+                <!-- <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Middle Name</mat-label>
+                        <input matInput placeholder="Middle Name" matInput formControlName="middleName">
+                        <mat-error
+                            *ngIf="adminProfileForm.get('middleName').hasError('required') && adminProfileForm.get('middleName').touched">
+                            Middle Name is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('middleName').hasError('pattern') && adminProfileForm.get('middleName').touched">
+                            Only characters are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('middleName').hasError('minlength') && adminProfileForm.get('middleName').touched">
+                            Min 1 characters is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('middleName').hasError('maxlength') && adminProfileForm.get('middleName').touched">
+                            Max 20 Characters required</mat-error>
+                    </mat-form-field>
+                </div>
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Last Name</mat-label>
+                        <input matInput placeholder="Last Name" matInput formControlName="lastName">
+                        <mat-error
+                            *ngIf="adminProfileForm.get('lastName').hasError('required') && adminProfileForm.get('lastName').touched">
+                            Last Name is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('lastName').hasError('pattern') && adminProfileForm.get('lastName').touched">
+                            Only characters are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('lastName').hasError('minlength') && adminProfileForm.get('lastName').touched">
+                            Min 1 characters is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('lastName').hasError('maxlength') && adminProfileForm.get('lastName').touched">
+                            Max 20 Characters required</mat-error>
+                    </mat-form-field>
+                </div> -->
+            </div>
+            <div class="row">
+
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width" appearance="outline">
+                        <mat-label>Status</mat-label>
+                        <mat-select matInput formControlName="status" [(ngModel)]="userProfileModel.status" [formGroup]="adminProfileForm">
+                            <mat-option>Select Status</mat-option>
+                            <mat-option value="Active">Active</mat-option>
+                            <mat-option value="Inactive">Inactive</mat-option>
+
+                        </mat-select>
+                        <mat-error>
+                            Status is required</mat-error>
+                    </mat-form-field>
+
+
+                </div>
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline">
+                        <mat-label class="">Password</mat-label>
+                        <input matInput [type]="hide ? 'password' : 'text'" formControlName="password" [(ngModel)]="userProfileModel.password" [formGroup]="adminProfileForm">
+                        <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                            [attr.aria-pressed]="hide">
+                            <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                        </button>
+
+                        <mat-error
+                            *ngIf="adminProfileForm.get('password').hasError('required') && adminProfileForm.get('password').touched">
+                            Password is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('password').hasError('pattern') && adminProfileForm.get('password').touched">
+                            Only Numbers are allowed</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('password').hasError('minlength') && adminProfileForm.get('password').touched">
+                            Min 8 characters is required</mat-error>
+                        <mat-error
+                            *ngIf="adminProfileForm.get('password').hasError('maxlength') && adminProfileForm.get('password').touched">
+                            Max 25 Characters required</mat-error>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row">
+                
+
+                <div class="form-group col-md-12 justify-content-center text-center">
+                    <button type="submit" class="btn buttons" (click)="SaveProfile()">Submit</button>
+
+                </div>
+            </div>
+
+
+
+            <br>
+        </form>
+    </div>
+</mat-card>

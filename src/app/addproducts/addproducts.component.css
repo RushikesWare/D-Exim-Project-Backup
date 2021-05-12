@@ -1,0 +1,151 @@
+.hrstyle{
+    width: 100%; color: black; ;
+  }
+  
+  .heading{
+     text-align: center;
+     padding: -15px;
+     margin: -5px;
+     margin-top: -20px;
+     font-size: 30px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  .pagefont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+  
+  .submitbuttons{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  
+  .disable-button{
+    opacity: 0.7;
+    pointer-events: none;
+    cursor: no-drop !important;
+    }
+  
+    
+  .buttons{
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: #1b9ce3;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    border:none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  
+    }
+    #export-button{
+      font-size: 16px;
+      background-color: #1b9ce3 !important;
+      color: white !important;
+    }
+  
+    .buttons:hover {
+      background-color: #ffffff;
+      color: black;
+      border: 1px solid #1b9ce3;
+    }
+  .addbuttons
+  {
+   height: 47px;
+   width: 47px;
+   text-align: center;
+  }
+  .example-form {
+   min-width: 150px;
+   max-width: 500px;
+   width: 100%;
+  }
+  
+  .example-full-width {
+   width: 100%;
+   font-size: 15px;
+  
+  }
+  .example-button-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  }
+  
+  
+  .singlesideratecard{
+  text-align: center;
+  margin-left:200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .bothsideratecard{
+  text-align: center;
+  margin-left:200px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .matcard{
+  background-size: cover;
+   padding: 20px;
+   margin: 20px;
+   border: 2px solid rgb(179, 190, 190);
+   /* margin:2em; */
+  
+  }
+  .breadcrumbstyle{
+  
+  /* border: 55px; */
+  margin:2em;
+  }
+  
+  td {
+   padding-right: 8px;
+  }
+  
+  
+  /* .body{
+  background-color: rgb(216, 237, 253);
+  }  */
+  
+  .textborder{
+    border: solid 2px yellow;
+  }
+  .errormsg{
+  margin-top: -22px;
+  color: red;
+  }
+  
+  table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+  
+  .styles{
+    width: 98% !important;
+    padding: 10px;
+    margin: 10px;
+  }
+  th{
+    background-color: #1b9ce3;
+    text-align: center;
+    padding: -15px;
+    margin: -5px;
+    margin-top: -20px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .stylespagination{
+   margin-left: 50% ;
+  }
+  
+  
+  

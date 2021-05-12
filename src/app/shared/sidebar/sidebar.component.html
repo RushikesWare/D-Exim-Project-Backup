@@ -1,0 +1,66 @@
+<mat-nav-list class="back   "  style="overflow: hidden;">
+
+
+
+    <h2 matSubheader class="headingstyle"><b>Admin</b></h2>
+    <mat-divider></mat-divider>
+
+    <a class="title1" mat-list-item routerLinkActive="list-item-active" routerLink="/layout">
+        <mat-icon class="sideicon">dashboard</mat-icon>&nbsp;
+        Dashboard
+    </a>
+    <mat-divider></mat-divider>
+
+    <a class="title1" mat-list-item routerLinkActive="list-item-active" routerLink="/forms">
+        <mat-icon class="sideicon">local_post_office</mat-icon>&nbsp;
+        Daily Dashboard
+    </a>
+    <mat-divider></mat-divider>
+     
+
+    <mat-divider></mat-divider>
+    <mat-icon class="childrouting ">chrome_reader_mode</mat-icon>
+    <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle side">Masters <mat-icon
+            class="drop">arrow_drop_down</mat-icon></a>
+    <ul class="collapse list-unstyled" id="pageSubmenu1">
+        <a routerLink="/layout/admin"> <li class="side1">Admin Profile </li></a>
+    </ul>
+
+ <mat-divider></mat-divider>
+    <mat-icon class="childrouting ">chrome_reader_mode</mat-icon>
+    <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle side">Product <mat-icon
+            class="drop">arrow_drop_down</mat-icon></a>
+    <ul class="collapse list-unstyled" id="pageSubmenu4">
+    
+            <a routerLink="/layout/add-product"> <li class="side1"> Products </li></a>           
+                <a routerLink="/layout/add-category"> <li class="side1">Category </li></a>
+                <a routerLink="/layout/add-news"> <li class="side1">News</li> </a>
+                <a routerLink="/layout/add-videos"> <li class="side1"> Youtube Videos</li></a>      
+                <a routerLink="/layout/add-images"> <li class="side1">Image Gallary</li></a>
+                <a routerLink="/layout/enquiry-list"> <li class="side1">Enquiry List</li></a>
+
+ 
+
+
+    </ul>  
+    <mat-divider></mat-divider>
+<!-- 
+    <mat-divider></mat-divider>
+    <mat-icon class="childrouting ">chrome_reader_mode</mat-icon>
+    <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle side">Reports <mat-icon
+            class="drop">arrow_drop_down</mat-icon></a>
+    <ul class="collapse list-unstyled" id="pageSubmenu5">
+            <li class="side1"> 
+                <a routerLink="/layout/monthlyorderreport">Products Report</a>
+            </li>
+            <li class="side1"> 
+                <a routerLink="/layout/monthlyorderreport"> A </a>
+            </li>
+            <li class="side1"> 
+                <a routerLink="/layout/monthlyorderreport">B </a>
+            </li>
+    </ul>  
+    <mat-divider></mat-divider> -->
+</mat-nav-list>
+
+ 

@@ -1,0 +1,152 @@
+.menubar
+{
+    width:  500px;
+}
+
+.profile-card
+{
+text-align: center;
+padding: 0 20px 20px 20px;
+
+}
+img
+{
+width:100px;
+height:100px;
+object-fit: cover;
+border-radius: 50%;
+}
+.headingstyle{
+    font-size: 17px;
+}
+
+.title
+{
+font-size: 15px;
+/* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+margin-top:-5px;
+margin-bottom:-5px;
+
+
+}
+.title1
+{
+font-size: 13px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-top:-5px;
+margin-bottom:-5px;
+font-weight: bold;
+margin-left: 20px;
+
+}
+.sideicon
+{
+font-size:20px;
+color: #4B94BF;
+margin-left: -19px;
+}
+
+
+
+.nav-link[data-toggle].collapsed:after {
+content: "▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+content: "▴";
+
+
+
+}
+
+
+.drop{
+
+margin-left: 30px;
+color:white;
+}
+.arrow{
+padding-top: 10px;
+width: 50%;
+}
+
+.children{
+width: 250px;
+background-color: rgb(201, 201, 201);
+}
+
+.side {
+margin-left: 20px;
+line-height: 40px;
+font-size: 14px;
+font-weight: bold;
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.submenu{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.drop1{
+color: black;
+margin-left: 80px;
+}
+
+.drop2{
+    color: azure;
+    margin-right: 53px;
+    }
+    .drop4{
+        color: azure;
+        margin-right: 55px;
+        }
+.drop3{
+    color: azure;
+    margin-left: 38px;
+
+    }
+    .drop5{
+        color: azure;
+        margin-left: 45px;
+        }
+        .drop6{
+            color: azure;
+            margin-left: -8px;
+            }
+    
+ul{
+background: #ECEFF1;
+}
+li:hover{
+
+      background-color:rgb(121, 177, 223);
+
+      
+
+}
+body{
+    overflow: hidden;
+    overflow-y: hidden;
+}
+.side1 {
+padding-left: 50px;
+font-size: 14px;
+line-height: 40px;
+
+/* font-size: 14px; */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+
+}
+
+.childrouting{
+padding-left: 15px;
+padding-top: 10px;
+color: #4B94BF;
+font-size: 20px;
+}

@@ -1,0 +1,54 @@
+ul li{
+    list-style: none;
+}
+ .icon
+{
+    margin-top: 20px;
+}
+.dropbtn{
+    margin-top: 20px;
+    margin-left: -600px;
+    }
+    .dropbtn1{
+    margin-top: 20px;
+    margin-left: -720px;
+    }
+    .userpfl{
+        height:30px;
+         width:50px;
+         border-radius: 50%;
+    }
+@media (max-width:768px)
+{
+    .mobicon
+    {
+        display: none;
+    }
+    .proficon
+    {
+        margin-left:-35px;
+    }
+    .dropbtn{
+
+        display: none;
+        }
+        .dropbtn1{
+        margin-top: 20px;
+        margin-left: -20px;
+        }
+        .userpfl{
+            height:20px;
+             width:30px;
+             border-radius: 50%;
+           margin-left: 0px;
+        }
+       
+}
+.logo-header{
+    width: 20%;
+}
+.d-exim{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 23px;
+}

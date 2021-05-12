@@ -1,0 +1,19 @@
+
+.zpluscybertec a:hover{
+    color: #1b9ce3 !important;
+}
+
+.fa-arrow-right{
+    margin-right: 10px;
+    color: white;
+}
+
+ .services-footer a{
+     line-height: 2.0;
+     color: white;
+ }
+ .services-footer a:hover{
+    line-height: 2.0;
+    color: #1b9ce3;
+    font-weight: bold;
+}

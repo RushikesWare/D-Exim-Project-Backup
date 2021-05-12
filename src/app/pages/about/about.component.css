@@ -1,0 +1,137 @@
+.fa-arrow-right{
+    margin-right:10px;
+    color: #1b9ce3;
+}
+.wrap-about h2{
+    font-size: 35px;
+}
+.vision img{
+    width: 100%;
+    height: auto;
+}
+.mission img{
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
+
+.value  img{
+    width: 100%;
+    height: auto;
+}
+
+.value-list p{
+    margin-bottom: 1% !important;
+}
+
+.heading-section h2{
+    border-bottom: 0.5px solid #ffffff;
+    width: 80%;
+}
+.download .col-md-3 button:hover{
+    color: white !important;
+    background-color: #1b9ce3 !important;
+}
+.download .col-md-3 button{
+   width: 95% !important;
+}
+
+.our-teams h2{
+        font-size: 34px;
+        font-weight: 700;
+        border-bottom: 2px solid #1b9ce3;
+        width: 100%;
+}
+.our-team{
+    border: 1px solid #d3d3d3;
+    position: relative;
+    overflow: hidden;
+}
+.our-team img{
+    width: 100%;
+    height: auto;
+}
+.our-team .team-content{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 45px 18px;
+    background: rgba(0,0,0,0.7);
+    transform: translateX(-100%);
+    transition: all 0.20s ease 0s;
+}
+.our-team:hover .team-content{
+    transform: translateX(0);
+}
+.our-team .team-content .post-title{
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.our-team .team-content .post{
+    font-size: 14px;
+    color: #1b9ce3;
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.our-team .description{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.our-team .team_social{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.our-team .team_social li{
+    display: inline-block;
+    margin-right: 5px;
+}
+.our-team .team_social li a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #f5f5f5;
+    font-size: 17px;
+    color: #f5f5f5;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    transition: border 0.3s ease 0s;
+}
+.our-team .team_social li a:hover{
+    border-color: transparent;
+}
+.our-team .team-prof{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding: 5px 12px;
+    background: rgba(0,0,0,0.7);
+    transform: translateX(0);
+    transition: all 0.20s ease 0s;
+}
+.our-team:hover .team-prof{
+    transform: translateX(100%);
+}
+.our-team .team-prof .post-title{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+}
+.our-team .team-prof .post{
+    font-size: 14px;
+    color: #1b9ce3;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 990px) {
+    .our-team{ margin-bottom: 20px; }
+}

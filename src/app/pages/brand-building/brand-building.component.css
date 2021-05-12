@@ -1,0 +1,31 @@
+.services-2 {
+    border-left: 1px solid rgba(0, 0, 0, .05);
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    width: 100%;
+    padding: 10px !important;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease
+}
+.registration h2 i{
+    color: #1b9ce3;
+    font-size: 37px;
+    margin-right: 1%;
+}
+.registration p {
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+.registration p i{
+    color: #1b9ce3;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.registration span{
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+}

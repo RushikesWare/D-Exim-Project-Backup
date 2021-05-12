@@ -1,0 +1,32 @@
+<div *ngIf="pager.pages && pager.pages.length" class="row align-items-center">
+    <div *ngIf="showRecordCount" class="col-md-5 ">
+        <div class="dataTables_info" id="dt-responsive_info" role="status" aria-live="polite" >
+           <b style="font-size: 11px"> Showing {{((pager.currentPage-1) * pageSize) + 1 }} to {{((pager.currentPage) * pageSize)>totalRecords?totalRecords:((pager.currentPage) * pageSize)}} of {{totalRecords}} entries</b>
+        </div>
+    </div>
+    <div class="col-sm-12 col-md-7 d-flex justify-content-end" style="margin-top: -20px;font-size: 12px;">
+        <div class="dataTables_paginate paging_simple_numbers " id="dt-responsive_paginate">
+            <ul class="pagination justify-content-center">
+                <li class="paginate_button page-item previous" [ngClass]="{disabled:pager.currentPage === 1}"
+                    id="dt-responsive_previous">
+                    <a (click)="setPage(pager.currentPage-1)" aria-controls="dt-responsive" class="page-link">
+                        <i class="fa fa-lg fa-angle-left"></i>
+                    </a>
+                </li>
+                <li class="paginate_button page-item" *ngFor="let page of pager.pages"
+                    [ngClass]="{active:pager.currentPage === page}">
+                    <a (click)="setPage(page)" aria-controls="dt-responsive" class="page-link">
+                        {{page}}
+                    </a>
+                </li>
+                <li class="paginate_button page-item next" [ngClass]="{disabled:pager.currentPage === pager.totalPages}"
+                    id="dt-responsive_next">
+                    <a (click)="setPage(pager.currentPage + 1)" aria-controls="dt-responsive" class="page-link">
+                        <i class="fa fa-lg fa-angle-right"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- <p>paging works</p> -->

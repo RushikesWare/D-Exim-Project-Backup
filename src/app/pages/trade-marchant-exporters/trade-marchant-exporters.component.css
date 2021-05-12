@@ -1,0 +1,33 @@
+.registration h2 i{
+    color: #1b9ce3;
+    font-size: 37px;
+    margin-right: 1%;
+}
+.registration p {
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+.registration p i{
+    color: #1b9ce3;
+    font-size: 20px;
+    margin-right: 1%;
+}
+
+.registration span{
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+}
+.marchant-export .col-md-4{
+    border: 1px solid rgba(0, 0, 0, .05);;
+}
+.marchant-export .col-md-4 h3{
+    margin-top: 3%;
+    text-align: center;
+}
+.marchant-export .col-md-4 img{
+    width: 100%;
+    padding: 2%;
+    height: auto;
+
+}

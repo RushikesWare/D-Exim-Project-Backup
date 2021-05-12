@@ -1,0 +1,170 @@
+<form class="pagefont" [formGroup]="categoryForm" autocomplete="off">
+    <!-- <mat-card class=" matcard "> -->
+    <!-- <div class="col-md-12" class="breadcrumbstyle">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item" routerLink="/layout">
+                    <mat-icon>home</mat-icon>&nbsp;Home
+                </li>
+                <li class="breadcrumb-item" routerLink="/masters/countrymaster">Category</li>
+            </ol>
+        </nav>
+    </div> -->
+    <!-- </mat-card> -->
+    <mat-card class=" matcard ">
+        <div class=" container titles  ">
+            <br>
+            <div class="row">
+                <div class="col-md 12 ">
+                    <h4 class="heading"><b>Category Master</b></h4>
+                </div>
+            </div>
+            <hr class="hrstyle">
+            <div class="row">
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline" >
+                        <mat-label class="">Category Name</mat-label>
+                        <input matInput placeholder="Category Name" formControlName="name" [(ngModel)]="categoryModel.name" [formGroup]="categoryForm"
+                        >
+                        <mat-error
+                            *ngIf="categoryForm.get('name').hasError('required') && categoryForm.get('name').touched">
+                            Category Name is required</mat-error>
+                        <!-- <mat-error
+                            *ngIf="categoryForm.get('name').hasError('pattern') && categoryForm.get('name').touched">
+                            Only characters are allowed</mat-error> -->
+                    </mat-form-field>
+                </div>
+
+                <div class=" col-md-4 example-full-width" appearance="outline" >
+                    <a class="btn-floating purple-gradient mt-0 float-left">
+                    <mat-label>Upload Photo</mat-label>
+
+                  
+                        <input type="file" required #files (change)="handleFileInput($event.target.files)" />
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <img *ngIf="categoryModel.photoLink == null" src="../../assets/images/image-not-found.png" style="   height: 100px; width: 150px; "
+                    alt="Image not found" class="imagestyle" [formGroup]="categoryForm">
+                    <img *ngIf="categoryModel.photoLink != null" [src]="categoryModel.photoLink" height="120" width="170" [formGroup]="categoryForm" > <br/>
+                </div>
+                
+            </div>
+            <div class="row">
+
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width" appearance="outline"  [formGroup]="categoryForm" >
+                        <mat-label>Status</mat-label> 
+                        <mat-select matInput  formControlName="status"  [(ngModel)]="categoryModel.status" [formGroup]="categoryForm">
+                            <mat-option >Select Status</mat-option>
+                            <mat-option value="Active">Active</mat-option>
+                            <mat-option value="Inactive">Inactive</mat-option>
+    
+                        </mat-select>
+                        <mat-error  *ngIf="categoryForm.get('status').hasError('required') && categoryForm.get('status').touched">
+                        Status is required</mat-error>
+                    </mat-form-field>
+
+
+                </div>
+
+                <div class="form-group col-md-4 ">
+                    <mat-form-field class="example-full-width " appearance="outline" [formGroup]="categoryForm">
+                        <mat-label class="">Category Descriptions</mat-label>
+                        <textarea matInput placeholder="Category Descriptions" rows="3" formControlName="descriptions" [(ngModel)]="categoryModel.descriptions" [formGroup]="categoryForm"
+                        ></textarea>
+                        <mat-error
+                            *ngIf="categoryForm.get('descriptions').hasError('required') && categoryForm.get('descriptions').touched">
+                            Category Descriptions is required</mat-error>
+                        <!-- <mat-error
+                            *ngIf="categoryForm.get('descriptions').hasError('pattern') && categoryForm.get('descriptions').touched">
+                            Only characters are allowed</mat-error> -->
+                    </mat-form-field>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class=" col-md-5"></div>
+                <div class="form-group col-md-2 submitbuttons ">
+                    <button type="submit" class=" btn  buttons"  (click)="addCategory()"   >Submit</button>
+
+                </div>
+                <!-- <div class="form-group col-md-2 submitbuttons">
+                    <button  type="submit"  class="btn btn-danger  buttons">Cancel</button> 
+                   
+                </div> -->
+                <div class=" col-md-4"></div>
+
+            </div>
+
+            <br>
+
+        </div>
+    </mat-card>
+    <mat-card class=" matcard ">
+        <div class="row">
+            <div class="col-md-4">
+                <mat-form-field class="example-full-width" appearance="outline">
+                    <mat-label>Search</mat-label>
+                    <input matInput (keyup)="applyFilter($event)" placeholder="Category Name" #input>
+                </mat-form-field>
+            </div>
+            <div class="col-md-7 form-group"> 
+                <button type="submit" class=" buttons" matTooltip=".xlsx" style="float:right"
+                    (click)="exportToExcel()"[ngClass]="{'disable-button': exportButton == false  }"><i class="fa fa-file-excel-o" aria-hidden="true">&nbsp; &nbsp;Export</i>
+                </button>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <div class="row">
+            <table mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8 styles">
+
+                <!-- Position Column -->
+                <ng-container matColumnDef="no">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> No. </th>
+                    <td mat-cell *matCellDef="let element; index as i;"> {{paginator.pageSize * paginator.pageIndex + i + 1}} </td>
+                </ng-container>
+
+                <!-- Name Column -->
+                <ng-container matColumnDef="countryname">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Category Name </th>
+                    <td mat-cell *matCellDef="let element"> {{element.name}} </td>
+                </ng-container>
+
+                <!-- Weight Column -->
+                <ng-container matColumnDef="statename">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Image </th>
+                    <td mat-cell *matCellDef="let element">  <img [src]="element.photoLink" style="height: 100px; width: 100px; margin: 10px;">  </td>
+                </ng-container>
+
+                <!-- Symbol Column -->
+    
+
+                <ng-container matColumnDef="desc">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Descriptions </th>
+                    <td mat-cell *matCellDef="let element"> {{element.descriptions}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="status">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Status </th>
+                    <td mat-cell *matCellDef="let element"> {{element.status}} </td>
+                </ng-container>
+
+                <ng-container matColumnDef="Action">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
+                    <td mat-cell *matCellDef="let element">  <button type="button" class="btn btn-dark" title="Edit Rolemaster"
+                        (click)=" GetByIdCategory(element.categoryId)">
+                        <i class="fa fa-pencil-square-o"></i>
+                </button></td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            </table>
+            <mat-paginator [pageSizeOptions]="[5, 10, 20, 50]" showFirstLastButtons class="stylespagination">
+            </mat-paginator>
+        </div>
+    </mat-card>
+</form>

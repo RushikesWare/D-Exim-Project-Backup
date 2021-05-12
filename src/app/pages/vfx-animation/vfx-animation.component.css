@@ -1,0 +1,18 @@
+.col-md-9 h1{
+    margin-left: 2% !important;
+}
+
+.registration h2 i{
+    color: #1b9ce3;
+    font-size: 37px;
+    margin-right: 1%;
+}
+.registration p {
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+.registration p i{
+    color: #1b9ce3;
+    font-size: 20px;
+    margin-right: 1%;
+}

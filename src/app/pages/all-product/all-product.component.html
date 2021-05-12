@@ -1,0 +1,83 @@
+<section class="hero-wrap hero-wrap-2" style="background-image: url(../../assets/images/bg_1.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9  text-center">
+                <h1 class="mb-2 bread">Our Products</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+                                class="ion-ios-arrow-forward"></i></a></span> <span>Products <i
+                            class="ion-ios-arrow-forward"></i></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="news-section" *ngIf="showProd">
+    <div class="container">
+        <h4 class="text-center" id="our-pord">We are Merchant export and we are deling in all types of goods & Services.</h4>
+        <br>
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 news-block"  *ngFor="let products of getAllCommonList, index as i"  
+             style="height:400px; padding: 1%; margin-bottom: 2%;">
+                <div class="news-block-one wow fadeInUp animated animated" data-wow-delay="00ms"
+                    data-wow-duration="1500m">
+                    <div class="inner-box btn" (click)="GetProductById(products)">
+                        <figure class="image-box"  style="height: 250px !important;"><a><img src={{products.photoLink}}
+                                    alt=""></a></figure>
+                        <div class="lower-content" >
+
+                            <!-- <h4><a>{{product.name}}</a></h4>
+                            <p>{{shortDesc1[i]}}</p> -->
+                            <h4 >{{products.name}}</h4>
+                                <hr style="color: gray;">
+                            <p >  {{shortDesc1[i]}}..... </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- <button class="btn pull-right" id="view-all-p" (click)="ViewAllProducts()">View All Products</button> -->
+    </div>
+   
+</section>
+ 
+<br>
+<br>
+<section *ngIf="showCat">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="col-md-1"></div> -->
+            <div class="col-md-12">
+                <!-- <h3 id="our-pord">Our Category</h3> -->
+
+        <h4 class="text-center" id="our-pord">We are Merchant export and we are deling in all types of goods & Services.</h4>
+        <br>
+
+                <div class="row" id="product-gd">
+                    <div class="col-md-3 col-sm-6" *ngFor="let item of getAllCommonList">
+                        <div class="product-grid" style="height: 220px;  margin-left: 1%;">
+                            <div class="product-image btn" (click)="GetProductById(item)">
+                                <a class="image" style="height: 150px;">
+                                    <img class="pic-1" src="{{item.photoLink}}">
+                                    <img class="pic-2" src="{{item.photoLink}}">
+                                </a>
+                            </div>
+                            <!-- <hr> -->
+                            <div class="product-content">
+                                <h3 class="titlestyle" (click)="GetProductById(item)">{{item.name}}</h3>
+                                <!-- <div class="price">{{cat.descriptions}}</div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+  
+            </div>
+ 
+        </div>
+     
+    </div>
+
+</section>
+<hr>

@@ -1,0 +1,17 @@
+footer{
+   
+    margin-left: 350px;
+    font-size: 14px;
+text-align: center; 
+clear: both;
+padding: 17px; 
+
+background-color: #fff; 
+width: 100%;
+overflow: none;
+}
+@media (max-width:768px){
+    footer{
+        margin-left: 25px;
+    }
+}

@@ -1,0 +1,366 @@
+<section class="hero-wrap hero-wrap-2" style="background-image: url(../../assets/images/service.png);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center">
+            <div class="col-md-9  text-center">
+                <h1 class="mb-2 bread">Export Handling</h1>
+                <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i
+                                class="ion-ios-arrow-forward"></i></a></span> <span>Types Of Export Handling <i
+                            class="ion-ios-arrow-forward"></i></span></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="my-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 text-center heading-section ">
+                <h2 style="border-bottom: 1px solid black;">D Exim Solutions Services...! </h2>
+                <p>To resolve the problems in Import Export Business we provide following diifrent services.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="registration">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>Container Exports (FCL)
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Full Container Load shipments.
+                </p>
+
+            </div>
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>LCL shipments
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Less Container Load shipments.
+                </p>
+
+            </div>
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>Break bulk shipments
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Break bulk (sometimes called “breakbulk”) is cargo or goods
+                    that are too big to fit inside of a container. Examples of break bulk are wood, rolls of steel, and
+                    parts of wind turbines. These goods get put on racks or pallets and loaded by cranes.
+                </p>
+                <p> <i class="fa fa-angle-double-right"></i> Courier, Air & Sea mode all types shipments handeling.
+                </p>
+                <p> <i class="fa fa-angle-double-right"></i> ODC Trailers, container trailers arrangments.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>International Packaging
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Packaging playing major role in import export business.
+                    Wooden, Plywood, Corrugated Boxes, Plastic, Steel pakaging of cargo is must be observed by consignee
+                    & customs offires, for that we have need to take care properly of any packaging.
+                </p>
+
+            </div>
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>Fumigation
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Fumigation is mandetory in import export.
+                </p>
+
+            </div>
+
+
+            <div class="col-md-12 heading-section">
+                <h2 class="mt-4"><i class="fa fa-chevron-circle-right"></i>Marine Insurance
+                </h2>
+                <p> <i class="fa fa-angle-double-right"></i> Insurance of any import export shipments is needed as per
+                    Incoterms. To avoiding any types of losses we need Insurance also in Import Export Business.
+                </p>
+                <p> <i class="fa fa-angle-double-right"></i>
+                    Marine insurance definition refers to the insurance of goods dispatched from the country of origin
+                    to the country of destination. The term originates from the fact that goods intended for
+                    international trade were traditionally transported by sea. Despite what the name implies, marine
+                    insurance is applicable to all modes of transportation of goods. When the goods are sent by air,
+                    their insurance is also known as marine cargo insurance.
+
+                </p>
+
+                <h2 style="text-align: center;font-size: 28px;">How Marine Insurance works? </h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="assets/images/insu.jpg">
+                    </div>
+                    <div class="col-md-9">
+
+                        Marine insurance transfers the liability of the goods from the parties and intermediaries
+                        involved to the insurance company. The legal liability of the intermediaries handling the goods
+                        is limited to begin with. The exporter, instead of bearing the sole responsibility of the goods,
+                        can buy an insurance policy and get coverage for the exported goods against any possible loss or
+                        damage.
+
+                        The carrier of the goods, be it the airline or the shipping company, may bear the cost of
+                        damages and losses to the goods while on board. However, the compensation agreed upon is mostly
+                        on a ‘per package’ or ‘per consignment’ basis. The coverage so provided may not be sufficient to
+                        cover the cost of the goods shipped. Therefore, exporters prefer to ship their products after
+                        getting it insured the same with an insurance company.
+
+                        Marine insurance is necessary to meet the contractual obligations of exports. To align with
+                        agreements such as cost insurance and freight (CIF) or carriage and insurance paid (CIP), the
+                        exporter needs to take marine insurance to protect the buyer’s or their bank’s interest and
+                        honor the contractual obligation. Similarly, in the case of Delivered Duty Unpaid (DDU) and
+                        Delivered Duty Paid (DDP) terms, the seller may not be obligated to insure the goods, although
+                        in practice they generally do.
+
+
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+
+                    <div class="col-md-9 ">
+                        <h2 style="font-size: 20px;">To avoid insurance claims, ensure the following:
+                        </h2>
+
+                        <p> <i class="fa fa-angle-double-right"></i> Packing of goods should be done keeping in mind
+                            their safety during loading and unloading
+                        </p>
+                        <p> <i class="fa fa-angle-double-right"></i> Packing should be good enough to withstand natural
+                            hazards to the best extent possible
+                        </p>
+                        <p> <i class="fa fa-angle-double-right"></i> Keep in mind the possibility of clumsy handling or
+                            theft when packing goods.
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 images">
+                        <img src="assets/images/avoid.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+<section>
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-10">
+            <div class="top-tabs-container">
+                <label for="main-tab-1">Types of Marine Insurance
+                </label>
+                <label for="main-tab-2" style=" border-left:2px solid white;">Types of Marine Insurance policies
+                </label>
+                <label for="main-tab-3" style=" border-left:2px solid white;">Coverage under various policies </label>
+                <label for="main-tab-4" style=" border-left:2px solid white;">Difference between Fire Insurance & Marine
+                    Insurance </label>
+
+            </div>
+
+            <!-- Tab Container -->
+            <input class="tab-radio" id="main-tab-1" name="main-group" type="radio" checked="checked" />
+            <div class="tab-content">
+                <h6> <i class="fa fa-angle-double-right"></i>Freight Insurance </h6>
+                <p>In freight insurance, if the goods are damaged in transit, the operator would lose freight
+                    receivables & so the insurance will be provided on compensation for loss of freight. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Liability Insurance</h6>
+                <p>Marine Liability insurance is where compensation is bought to provide any liability occurring on
+                    account of a ship crashing or colliding. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Hull Insurance </h6>
+                <p>Hull Insurance covers the hull & torso of the transportation vehicle. It covers the transportation
+                    against damages and accidents. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Marine Cargo Insurance </h6>
+                <p>Marine cargo policy refers to the insurance of goods dispatched from the country of origin to the
+                    country of destination.</p>
+            </div>
+
+
+            <input class="tab-radio" id="main-tab-2" name="main-group" type="radio" />
+            <div class="tab-content">
+                <h6> <i class="fa fa-angle-double-right"></i>Floating policy </h6>
+                <p>Large exporters may opt for an open policy, also known as a blanket policy, instead of taking
+                    insurance separately for each shipment. An open policy is a one-time insurance that provides
+                    insurance cover against all shipments made during the agreed period, often a year. The exporter may
+                    need to declare periodically (say, once a month) the detail of all shipments made during the period,
+                    type of goods, modes of transport, destinations, etc.</p>
+                <h6> <i class="fa fa-angle-double-right"></i>Voyage policy</h6>
+                <p>A specific policy can be taken for a single lot or consignment only. The exporter needs to purchase
+                    insurance cover every time a shipment is sent overseas. The drawback is that extra effort and time
+                    is involved each time an exporter sends a consignment. With open policies, on the other hand,
+                    shipments are insured automatically.</p>
+                <h6> <i class="fa fa-angle-double-right"></i>Time policy </h6>
+                <p>Time policy is generally issued for a year’s period. One can issue for more than a year or they may
+                    extend to complete a specific voyage. But it is normally for a fixed period. Also under marine
+                    insurance in India, time policy can be issued only once a year.</p>
+                <h6> <i class="fa fa-angle-double-right"></i>Mixed policy</h6>
+                <p>Mixed policy is a mixture of two policies i.e Voyage policy and Time policy. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Named policy</h6>
+                <p>Named policy is one of the most popular policies in marine insurance policy. The name of the ship is
+                    mentioned in the insurance document, stating the policy issued is in the name of the ship.</p>
+                <h6> <i class="fa fa-angle-double-right"></i>Port Risk policy</h6>
+                <p>It is a policy taken to ensure the safety of the ship when it is stationed in a port.</p>
+                <h6> <i class="fa fa-angle-double-right"></i>Fleet policy</h6>
+                <p>Several ships belonging to the company/owner are covered under one policy. Where it has the advantage
+                    of covering even the old ships. Also the policy is a time based policy. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Single Vessel policy</h6>
+                <p>In single vessel policy only one vessel is covered under marine insurance policy. </p>
+                <h6> <i class="fa fa-angle-double-right"></i>Blanket policy</h6>
+                <p>In this policy, the owner has to pay the maximum protection amount at the time of buying the policy.
+                </p>
+            </div>
+
+            <!-- Tab Container -->
+            <input class="tab-radio" id="main-tab-3" name="main-group" type="radio" />
+            <div class="tab-content">
+                <h6>The coverage provided by marine insurance can be understood by going through the risks handled by
+                    the insurance policies loaded with various insurance clauses: </h6>
+                <p><i class="fa fa-angle-double-right"></i> Institute Cargo Clause C provides basic coverage and
+                    includes a restricted list of risk covers. It covers the shipment against events such as fire,
+                    discharge of cargo in case of distress, explosion, accidents like sinking, capsizing, derailment,
+                    collision, etc.</p>
+                <p><i class="fa fa-angle-double-right"></i> Institute Cargo clause B offers an additional layer of
+                    protection. Not only does it include all the risk covers provided under Clause C, but it also covers
+                    the shipment against events such as earthquake, volcanic eruption, and damage due to rainwater,
+                    seawater, river water, etc., and loss to package overboard or during loading and unloading.</p>
+                <p><i class="fa fa-angle-double-right"></i>. Institute Cargo Clause A provides maximum coverage as it
+                    covers all risk of loss or damage to the goods. Apart from the risks covered under Clauses B and C,
+                    it also covers losses due to breakage, chipping, denting, bruising, theft, non-delivery, all water
+                    damage, etc.</p>
+                <p><i class="fa fa-angle-double-right"></i> Risks such as wars, strikes, riots, and civil commotions are
+                    not covered under the institute cargo clauses. However, the insurer may provide this cover on
+                    payment of additional marine insurance premium.</p>
+                <p><i class="fa fa-angle-double-right"></i> So in terms of coverage, these three types of marine
+                    insurance clauses: Institute Cargo Clauses A, B, and C. Clause A provides maximum coverage, Clause C
+                    provides basic risk coverage.</p>
+            </div>
+
+            <!-- Tab Container -->
+            <input class="tab-radio" id="main-tab-4" name="main-group" type="radio" />
+            <div class="tab-content">
+              <p><i class="fa fa-angle-double-right"></i>Fire insurance is an insurance that covers the risk of fire. The subject matter is any physical asset or property. The moral responsibility is an important condition here. There is no expected profit margin in terms of fire insurance. The insurable interest must be present before taking the policy and also at the time of loss.</p>
+            <p><i class="fa fa-angle-double-right"></i>Whereas, Marine insurance is one that encompasses risks associated with the sea. The subject matter is the ship, freight or cargo. It does not consist of any clause related to the moral responsibility of the cargo owner or the ship. 10 to 15% profit margin is expected in terms of marine insurance. Also in marine insurance the insurable interest must be only at the time of loss.</p>
+            </div>
+
+
+
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+
+</section>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-10">
+            <h5>Our dedicated Insurance broker:	</h5>
+            <h6>Mr. Rajendra Dhadave (Insurance & Marketing)</h6>
+            <p style="color: black;font-weight: bold;"><i class="fa fa-volume-control-phone" aria-hidden="true"></i>&nbsp;7719808788 &nbsp;&nbsp;
+                <i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;dhadaverajendra882@gmail.com   </p>
+          
+        </div>
+    </div>
+</div>
+
+.images img{
+    margin-top:-50px;
+}
+
+/* FONT */
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+
+/* Main Tabs */
+label {
+  background-color: #00262f;
+  color: #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px;
+  font-size: 16px;
+ 
+}
+
+label:hover {
+  background-color: #02404b;
+}
+
+label input:checked {
+  background-color: red;
+}
+
+.tab-radio {
+  display: none;
+}
+
+/* Tabs behaviour, hidden if not checked/clicked */
+.sub-tab-content,
+.tab-content {
+  display: none;
+}
+
+.tab-radio:checked + .tab-content,
+.tab-radio:checked + .sub-tab-content {
+  display: block;
+}
+
+/* Sub-tabs */
+.sub-tabs-container label {
+  background-color: #cddc39;
+  color: #030700;
+}
+
+.sub-tabs-container label:hover {
+  background-color: #AFB42B;
+}
+
+/* Tabs Content */
+.tab-content {
+  padding: 10px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 10px 6px -3px rgba(0, 0, 0, 0.5);
+}
+
+/* General */
+
+body {
+  width: 90%;
+  margin: 10px auto;
+  background-color: #ecf0f1;
+  font-family: Lato, sans-serif;
+  letter-spacing: 1px;
+}
+
+*, *:hover {
+  transition: all .3s;
+}
+
+
+h6{
+    color: black;
+    font-weight: bold;
+}
+
+.fa-angle-double-right{
+    margin-right:10px;
+}
+
+.fa-volume-control-phone{
+    color: rgb(46, 172, 223);
+}
+
+.fa-envelope{
+    color:  rgb(46, 172, 223);
+}

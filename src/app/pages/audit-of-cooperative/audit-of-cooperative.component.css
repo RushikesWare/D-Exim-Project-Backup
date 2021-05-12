@@ -1,0 +1,31 @@
+.registration h2 i{
+    color: #1b9ce3;
+    font-size: 37px;
+    margin-right: 1%;
+}
+.registration p {
+    margin-left: 5%;
+    margin-bottom: 0;
+}
+.registration p i{
+    color: #1b9ce3;
+    font-size: 20px;
+    margin-right: 1%;
+}
+.services-2{
+    padding: 3% !important;
+}
+.Audit-co-operative{
+    width: 100%;
+}
+
+.heading-section p i {
+    color: #1b9ce3;
+    font-size: 19px;
+    padding-right: 1%;
+    text-align: left !important;
+}
+.heading-section .container p{
+    margin: 0;
+    text-align: left !important;
+}

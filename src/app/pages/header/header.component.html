@@ -1,0 +1,366 @@
+<div class="bg-top navbar-light">
+  <div class="container-fluid ">
+    <div class="row no-gutters d-flex align-items-center align-items-stretch">
+      <div class="col-md-4 d-flex align-items-center sticky-logo pt-2" style="padding: 0;">
+        <div class="row ">
+          <div class="col-md-3">
+            <a routerLink="">
+              <img id="logo-pg" src="assets/images/2021.png">
+            </a>
+          </div>
+          <div class="col-md-9 d-exim-font">
+              <!-- <p>D Exim Solutions Pvt Ltd</p> -->
+            <a class="navbar-brand" routerLink="">
+              D Exim Solutions <br class="d-exim-br"> Pvt Ltd
+            </a>
+            <p><q>We made for Import Export</q></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-8 d-block display-none">
+        <div class="row d-flex">
+          <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span>
+            </div>
+            <div class="text">
+              <span>Email</span>
+              <span><a href="mailto:y.dhadave@eximsolutions.com" class="__cf_email__"
+                  data-cfemail="yashwant.yhadave@deximsolutions.com"> Yashwant.Dhadave@deximsolutions.com</a></span>
+            </div>
+          </div>
+          <div class="col-md d-flex topper align-items-center align-items-stretch py-md-4">
+            <div class="icon d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+            <div class="text">
+              <span>Call</span>
+              <span><a href="tel:+91 8830554973">+91 883 055 4973</a></span>
+            </div>
+          </div>
+          <div class="col-md topper d-flex align-items-center justify-content-end">
+            <p class="mb-0 d-block">
+              <a routerLink="/pages/contact" class="btn py-2 px-3 btn-primary">
+                <span>Contact Us</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<header class="dark" id="navigation-bar-dark">
+  <nav role="navigation">
+    <a href="javascript:void(0);" class="ic menu" tabindex="1">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </a>
+    <a href="javascript:void(0);" class="ic close"></a>
+    <ul class="main-nav">
+      <li class="top-level-link" style="border-left: 1px solid #bbb;">
+        <a routerLink=""><span>Home</span></a>
+      </li>
+      <li class="top-level-link">
+        <a routerLink="about"><span>About Us</span></a>
+      </li>
+
+      <li class="top-level-link" id="tttt">
+        <a routerLink="Merchant-Export"><span>Merchant Export</span></a>
+      </li>
+      
+      <li class="top-level-link">
+        <a class="mega-menu" routerLink="Merchant-Export"><span>Category</span></a>
+        <div id="sub-men" class="sub-menu-block">
+          <div class="row" >
+
+            <div class="col-md-12 col-lg-4 col-sm-6">
+              <h2 class="sub-menu-head"><a >All Product Categories</a>
+              </h2>
+              <ul class="sub-menu-lists"  *ngFor="let cat of categoryList; index as i;">
+
+                <li class="btn"  id="hide" (click)="GetProdByCatId(cat)" style="color: #1b9ce3;cursor: pointer;"> 
+                    <i class="fa fa-arrow-circle-right"></i ><span class="catName">&nbsp;{{cat.name}}</span></li>                
+              </ul> 
+            </div>
+
+            
+          </div>
+        </div>
+      </li>
+      <li class="top-level-link">
+        <a routerLink="Gallary"><span>Gallary</span></a>
+      </li>
+      <!-- <li class="top-level-link">
+        <a routerLink="contact"><span>Contact</span></a>
+      </li> -->
+      <li class="top-level-link">
+        <a class="mega-menu" routerLink="services"><span>Services</span></a>
+        <div id="sub-menu" class="sub-menu-block">
+          <div class="row">
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Import-Export-Service">Import-Export Service Provider</a>
+              </h2>
+              <ul class="sub-menu-lists">
+
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Import-Export support</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Avoid Common Mistakes</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Solve Problems in Business</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Outsourcing Services
+                  </a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Traning Certification Course
+                  </a></li>
+                <!-- <li><a class="show-hide" class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Scomat Declaration</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;VGM filling</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Examination Certificate</a></li>  
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Fumigation</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;RFD Seal filling</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Service">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Consignee Invoice & Packing List ( Order closing Remark & Heat Code)</a></li> -->
+              </ul>
+
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Audit-Of-Cooperative-Socity">Audit of Cooperative Socity</a>
+              </h2>
+            </div>
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Import-Export-Consultants">Import-Export Consultants</a>
+              </h2>
+              <ul class="sub-menu-lists">
+
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Export Consultancy</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Types of Exports handeling</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Software for Documentation</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Job Placment</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;GST consultancy</a></li>
+                <li><a class="show-hide" routerLink="/pages/Import-Export-Consultants">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;IGST refund claims filling</a></li>
+              </ul>
+            </div>
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Distributor">Distributor</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Full-service Distributors</a></li>
+                <li><a class="show-hide" routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp; Inventory Managment</a></li>
+                <li><a class="show-hide" routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Warehousing Facilities</a></li>
+                <li><a class="show-hide" routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Transport</a></li>
+                <li><a class="show-hide" routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Financing</a></li>
+                <!-- <li><a class="show-hide"  routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;DGFT related work</a>
+                  </li>
+                  <li><a class="show-hide"  routerLink="/pages/Distributor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Customs related work</a></li> -->
+              </ul>
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Company-Registration">Company Registration</a></h2>
+
+            </div>
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Business-Advisor">Business Advisor</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Import Export Data provider</a></li>
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp; Export Marketing </a></li>
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Digital World</a></li>
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Online Marketing</a></li>
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Social Media</a></li>
+                <li><a class="show-hide" routerLink="/pages/Business-Advisor">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Trade Fair & Exhibition</a></li>
+              </ul>
+            </div>
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">Co-Ordination with various
+                  Authorities</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Export promotion agencies</a></li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Commodity Board</a></li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Government Embassies</a></li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Personal Meet</a></li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Appointing a Agent</a></li>
+                <!-- <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Marine Insurance</a>
+                </li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;InternationalPackaging</a></li>
+                <li><a class="show-hide" routerLink="/pages/Co-Ordination-with-Authorities">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;International warehousing</a></li> -->
+              </ul>
+            </div>
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Manage-Franchises">Manage Franchises</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Technology </a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Professionalism </a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Creativity </a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Partnerships </a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Communication  </a></li>
+                <!-- <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;IECgate
+                    registration</a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Documents
+                    submission
+                    in Range office</a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Factory Stuffing
+                    Permission</a></li>
+                <li><a class="show-hide" routerLink="/pages/Manage-Franchises">
+                  <i class="fa fa-arrow-circle-right"></i>&nbsp;Self Sealing
+                    Permission registration at Customs</a></li> -->
+
+              </ul>
+            </div>
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Strategy-Formulator">Strategy Formulator</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Strategy-Formulator">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Goal Setting</a></li>
+                <li><a class="show-hide" routerLink="/pages/Strategy-Formulator">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Situation Analysis</a></li>
+                <li><a class="show-hide" routerLink="/pages/Strategy-Formulator">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Strategy Formulation</a></li>
+                <li><a class="show-hide" routerLink="/pages/Strategy-Formulator">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Strategy Implementation</a></li>
+                <li><a class="show-hide" routerLink="/pages/Strategy-Formulator">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Strategy Evaluation</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Brand-Building">Brand Building</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Determine Target Audience</a></li>
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Define Brand Mission</a></li>
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Research Competition</a></li>
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Create Value Propositions</a></li>
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Determine Brand Guidelines</a></li>
+                <li><a class="show-hide" routerLink="/pages/Brand-Building">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Market Your Brand</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Market-Leadership-Products">Market Leadership for Verious
+                  Products</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Services on Behalf of Client</a></li>
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Risk</a></li>
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Awareness</a></li>
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Trust</a></li>
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Partnership</a></li>
+                <li><a class="show-hide" routerLink="/pages/Market-Leadership-Products">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Innovation</a></li>
+              </ul>
+            </div>
+
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">Trader/Merchant Exporters</a>
+              </h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Machinery appliances</a></li>
+                <li><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Iron & Steel Articals</a></li>
+                <li><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Plastics</a></li>
+                <li><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Foods & beverages</a></li>
+                <li><a class="show-hide" routerLink="/pages/Trade-Marchant-Exporters">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Lather Articals</a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/VFX-Animation">VFX Animation</a></h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/VFX-Animation">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Video Editing </a></li>
+                <li><a class="show-hide" routerLink="/pages/VFX-Animation">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Animation & Creation</a></li>
+                <li><a class="show-hide" routerLink="/pages/VFX-Animation">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Advertisement, Logo creation</a></li>
+                <li><a class="show-hide" routerLink="/pages/VFX-Animation">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Industrial Photography And Portfolio
+                  </a></li>
+              </ul>
+            </div>
+
+            <div class="col-md-12 col-lg-2 col-sm-6">
+              <h2 class="sub-menu-head"><a class="show-hide" routerLink="/pages/Other-Supportive-Services">Other Supportive Services</a>
+              </h2>
+              <ul class="sub-menu-lists">
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;Certificate of Origin</a></li>
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;GSP</a></li>
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;AD Code registration</a></li>
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;IECgate registration</a></li>
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;REX Returns</a></li>
+                <li><a class="show-hide" routerLink="/pages/Other-Supportive-Services">
+                    <i class="fa fa-arrow-circle-right"></i>&nbsp;DGFT related work</a></li>
+              </ul>
+            </div>
+
+
+
+          </div>
+        </div>
+      </li>
+      <li class="top-level-link">
+        <a routerLink="contact"><span>Contact</span></a>
+      </li>
+    </ul>
+  </nav>
+
+</header>
+
+
+<!-- End Navigation Bar -->
